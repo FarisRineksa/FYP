@@ -43,31 +43,6 @@ This project utilizes **FinBERT**, a transformer-based language model specifical
 
 ---
 
-## 📂 Project Structure
-
-```
-Stock-Market-Sentiment-Analysis/
-│
-├── data/
-│   ├── raw_tweets.csv
-│   └── processed_tweets.csv
-│
-├── notebooks/
-│   └── sentiment_analysis.ipynb
-│
-├── models/
-│   └── finbert_model/
-│
-├── results/
-│   ├── sentiment_distribution.png
-│   └── prediction_results.csv
-│
-├── requirements.txt
-├── README.md
-└── main.py
-```
-
----
 
 ## ⚙️ Methodology
 
@@ -109,28 +84,6 @@ Example:
 | Tesla stock is performing exceptionally well! | Positive |
 | The market is crashing today. | Negative |
 | Investors are waiting for earnings reports. | Neutral |
-
----
-
-## 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/stock-market-sentiment-analysis.git
-```
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the project:
-
-```bash
-python main.py
-```
 
 ---
 
